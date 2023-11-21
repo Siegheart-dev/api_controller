@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- ... (other head elements) ... -->
+    <title>Carfax Results</title>
+    <!-- ... (other head elements) ... -->
+</head>
+<body>
+    <h2>Maker Information</h2>
+    {% if make %}
+    <p>Maker: {{ make }}</p>
+    {% else %}
+    <p>No make information available.</p>
+    {% endif %}
+    <!-- ... (other HTML content) ... -->
+</body>
+</html>
